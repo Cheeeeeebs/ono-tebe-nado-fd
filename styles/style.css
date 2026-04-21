@@ -57,6 +57,7 @@
 }
 .overlay {
   position: absolute;
+  background-color: rgb(0 0 0 / 0.6);
   inset: 0;
   z-index: -1;
 }
@@ -146,6 +147,8 @@
   height: 100%;
   background-size: cover;
   background-position: center;
+  color: white;
+  
 }
 .card__title {
   padding: 48px 40px 0 40px;
@@ -161,13 +164,13 @@
   font-style: normal;
   line-height: 120%;
 }
-.card_type_film {
+.lots_film { 
   background-image: url("../images/card-lot-01.jpg");
 }
-.card_type_book {
+.lots_book {
   background-image: url("../images/card-lot-02.jpg");
 }
-.card_type_picture {
+.lots_picture {
   background-image: url("../images/card-lot-03.jpg");
 }
 .lots__look-more-link {
