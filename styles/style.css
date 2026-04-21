@@ -1,1 +1,258 @@
-/* место для вашего кода */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px 50px;
+}
+.menu {
+  display: flex;
+  justify-self: center;
+}
+.menu__list {
+  display: flex;
+  list-style-type: circle;
+  font-size: 18px;
+  font-weight: 400;
+  text-underline-offset: 4px;
+  gap: 32px;
+}
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+.header__link_active {
+  text-decoration: none;
+}
+.logo_header {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: 400;
+  text-underline-offset: 4px;
+  font-style: normal;
+}
+.addres_header {
+  justify-self: end;
+  align-items: flex-start;
+  max-width: 240px;
+}
+.content {
+  font-family: Raleway, sans-serif;
+  color: white;
+}
+.cover {
+  text-transform: uppercase;
+  position: relative;
+  background-image: url("../images/cover.jpg");
+  min-height: 757px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.cover_title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 700;
+  font-size: 100px;
+  padding: 165px 50px 0 50px;
+  letter-spacing: 31px;
+  gap: 20px;
+}
+.first_title{
+  align-self: flex-start;
+  text-align: center;
+  color: white;
+}
+.second_title{
+  align-self: center;
+  text-align: center;
+  color: white;
+}
+.third_title{
+  align-self: flex-end;
+  text-align: right;
+  color: white;
+}
+.cover_description {
+  display: flex;
+  z-index: 1;
+  padding: 106px 50px 50px 50px;
+  justify-content: space-between;
+}
+.cover_description_text {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 22px;
+  word-spacing: 16px;
+  font-weight: normal;
+  align-content: center;
+  color: white;
+}
+.cover_button {
+  background: transparent;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 12px 31px;
+  border: 1px solid white;
+  color: white;
+  width: 256px;
+  height: 51px;
+}
+.lots {
+  margin: 180px 24px 0 24px;
+}
+.lots_heading {
+  text-transform: uppercase;
+  padding-left: 40px;
+  font-weight: 700;
+  font-size: 40px;
+  color: black;
+}
+.lots_list_card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-top: 27px;
+  list-style-type: none;
+}
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+  z-index: 1;
+}
+.card-link {
+  height: 100%;
+  text-decoration: none;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.card__title {
+  padding: 48px 40px 0 40px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.card__text {
+  font-weight: 400;
+  padding: 0 40px 48px 40px;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 120%;
+}
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+}
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+}
+.lots__look-more-link {
+  display: block;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-underline-offset: 4px;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+.about {
+  margin-top: 120px;
+  color: black;
+  font-family: Raleway, sans-serif;
+}
+.about_art {
+  display: grid;
+  padding: 35px 24px 0px;
+  grid-template-columns: 334px repeat(1, 1fr);
+  gap: 25px;
+}
+.about_logo {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+.about_logo_image {
+  width: 148px;
+  height: 114px;
+}
+.about_content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 101px;
+}
+.about__title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.about_text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 20px;
+  gap: 24px;
+  padding-top: 100px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  margin-top: 180px;
+}
+.footer_address {
+  padding-left: 50px;
+}
+.footer_menu {
+  text-align: center;
+}
+.footer_menu-list {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 400;
+  text-underline-offset: 4px;
+  padding-bottom: 115px;
+}
+.footer_menu_active {
+  text-decoration: none;
+}
+.footer_social-list {
+  display: flex;
+  gap: 48px;
+  padding-right: 50px;
+}
+.footer_social_icon {
+  width: 48px;
+  height: 48px;
+}
+
+/* Очень торопился, некотурую структуру подсмотрел у товарищей,
+ очень долго разбирался и долго укладывалось в голове,
+  что, где, за что отвечает, код старался написать красиво)*/
