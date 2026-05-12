@@ -13,7 +13,7 @@
     <header class="header">
       <nav class="menu">
         <ul class="menu_list">
-          <li class="header__links-list-item_no-bullit"><a class="header__link_active">главная</a></li>
+          <li class="header__links-list-item_no-bullit"><a class="header__link_active" href="#0">главная</a></li>
           <li class="menu__item"><a href="#0">смотреть лоты</a> </li>
           <li class="menu__item"><a href="#0">об аукцонне</a> </li>
         </ul>
@@ -25,30 +25,34 @@
         />
       </a>
       <address class="addres addres_header">
-        <ul class="menu_addres_header">
-          <li> <a href="tel:+99995555555">+9 999 555 5555</a></li>
-          <li> <a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-          <li> <p>наб. Принсенграхт 263- 265,</p></li>
-          <li><p>Амстердам</p></li>
-        </ul>
+        <address class="address header__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
-        <div class="overlay">
-          <h1 class="cover_title">
-           <p class="first_title">ОНО</p>
-           <p class="second_title">ТЕБЕ</p>
-           <p class="third_title">НАДО</p>
-          </h1>
-          <div class="cover_description">
-            <p class="cover_description_text">
-              Аукцион вещей, в которые никто не верил
-            </p>
-            <button class="cover_button">
-              Сделать ставку
-            </button>
-          </div>
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="aligned-text_left">
+            о<span class="letter-spacing-extended">н</span
+            ><span class="no-letter-spacing">о</span>
+          </span>
+          <span class="aligned-text_center">
+            <span class="letter-spacing-extended">теб</span
+            ><span class="no-letter-spacing">е</span>
+          </span>
+          <span class="aligned-text_right">
+            <span class="letter-spacing-extended">над</span
+            ><span class="no-letter-spacing">о</span>
+          </span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="cover_button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">    
@@ -128,7 +132,7 @@
         <article class="about_art">
           <div class="about_logo">
             <img class="about_logo_img"
-            src="images\logo-white.svg"
+            src="images/logo-white.svg"
             alt="Логотип оно тебе надо"
             />
           </div>

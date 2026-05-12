@@ -4,6 +4,7 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     padding: 92px 50px 96px 50px;
+    font-family: Raleway, sans-serif;
 }
 .menu {
   display: flex;
@@ -36,7 +37,7 @@
   text-underline-offset: 4px;
   font-style: normal;
 }
-.addres_header {
+.header__address {
   justify-self: end;
   align-items: flex-start;
   max-width: 240px;
@@ -71,20 +72,20 @@
   letter-spacing: 31px;
   gap: 20px;
 }
-.first_title{
+.aligned-text_left {
   align-self: flex-start;
   text-align: center;
-  color: white;
 }
-.second_title{
+.aligned-text_center {
   align-self: center;
   text-align: center;
-  color: white;
 }
-.third_title{
+.aligned-text_right {
   align-self: flex-end;
   text-align: right;
-  color: white;
+}
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 .cover_description {
   display: flex;
